@@ -1,0 +1,10 @@
+{
+    "model_type": "CNN + XGBoost Hybrid",
+    "cnn_backbone": "ResNet-18",
+    "embedding_dim": 512,
+    "num_classes": 6,
+    "patch_level_accuracy": 0.9417,
+    "cnn_accuracy": 0.93,
+    "dataset": "DeepPCB (patch-based)",
+    "notes": "Hybrid improves macro F1 and robustness over CNN alone"
+}
